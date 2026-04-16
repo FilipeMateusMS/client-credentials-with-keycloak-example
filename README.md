@@ -31,12 +31,14 @@ O objetivo é simular comunicação entre serviços protegidos com autenticaçã
 
 ---
 
-## 🐳 Subindo o ambiente
+## 🐳 Subindo o Keycloak
 
 Execute:
 
 ```bash
 docker compose up -d
 ```
+
+Rode o resource-server e client-serve
 
 Acesse o endpoint http://localhost:9000/client/hello
